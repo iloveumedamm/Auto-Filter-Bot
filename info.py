@@ -19,13 +19,13 @@ def is_valid_ip(ip):
 # Bot information
 
 # Bot information
-API_ID = environ.get('API_ID', '24010108')
+API_ID = environ.get('API_ID', '23149497')
 if len(API_ID) == 0:
     print('Error - API_ID is missing, exiting now')
     exit()
 else:
     API_ID = int(API_ID)
-API_HASH = environ.get('API_HASH', '8d89700b2fc09a3aa6c906cbed65b040')
+API_HASH = environ.get('API_HASH', 'b5129d40ff05cec2432b97f1bf26e954')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
