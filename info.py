@@ -29,7 +29,7 @@ API_HASH = environ.get('API_HASH', '8d89700b2fc09a3aa6c906cbed65b040')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7466870808:AAG-clXaH7ea2FJKgNtIsMwx4BE_zSO6soc')
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
@@ -71,7 +71,7 @@ if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files12')
 
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/HA_Bots_Support')
@@ -98,7 +98,7 @@ PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '3600'))
 
 # boolean settings
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', 1)
-IS_VERIFY = is_enabled('IS_VERIFY', 1)
+IS_VERIFY = is_enabled('IS_VERIFY', 0)
 AUTO_DELETE = is_enabled('AUTO_DELETE', 1)
 WELCOME = is_enabled('WELCOME', 1)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
@@ -115,13 +115,13 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'sampleupi@upi')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002119584175")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "")
+URL = environ.get("URL", "f'http://google.com/")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
