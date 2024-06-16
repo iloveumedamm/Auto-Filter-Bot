@@ -29,7 +29,7 @@ API_HASH = environ.get('API_HASH', 'b5129d40ff05cec2432b97f1bf26e954')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '6399125583:AAG1600YMP_8ta1stvTNVxtMAnpdMteVX4o')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6540502421:AAGLRszPKqLHfGFmLezbd3AV4S0ZlEkuw-c')
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
@@ -71,7 +71,7 @@ if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files13')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files14')
 
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/HA_Bots_Support')
